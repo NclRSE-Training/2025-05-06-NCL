@@ -13,7 +13,7 @@ humandate: "2025-05-06"
 humantime: "09:00 - 17:00"
 startdate: 2025-05-06
 enddate: 2025-05-06
-instructor: ["Dr Jannetta Steyn", "Dr Robin Nandi]
+instructor: ["Dr Jannetta Steyn", "Dr Robin Nandi"]
 helper: ["Carol Booth and Dr. Richard Howey"]
 email: ["training.researchcomputing@newcastle.ac.uk","jannetta.steyn@newcastle.ac.uk"]
 collaborative_notes: https://hackmd.io/@rseteam/2025-05-06-NCL/edit
