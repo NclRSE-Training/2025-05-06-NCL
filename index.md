@@ -3,7 +3,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "Newcastle University"
+venue: "Newcastle University, Henry Daysh Building, PGR Learning Lab R6.19"
 address: "Henry Daysh Building, PGR Learning Lab R6.19"
 country: "gb"
 language: "en"
@@ -13,12 +13,12 @@ humandate: "2025-05-06"
 humantime: "09:00 - 17:00"
 startdate: 2025-05-06
 enddate: 2025-05-06
-instructor: ["Dr Frances Turner", "Dr Jannetta Steyn"]
-helper: [""]
-email: [""]
-collaborative_notes: https://hackmd.io/@rseteam-ncl/2025-05-06-NCL
+instructor: ["Dr Jannetta Steyn", "Dr Robin Nandi]
+helper: ["Carol Booth and Dr. Richard Howey"]
+email: ["training.researchcomputing@newcastle.ac.uk","jannetta.steyn@newcastle.ac.uk"]
+collaborative_notes: https://hackmd.io/@rseteam/2025-05-06-NCL/edit
 eventbrite:  
-what3words: bars.hips.hired
+what3words: intro.aims.intent
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -197,13 +197,15 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop with a
+    PCs and an online environment will be provided but participants are welcome to bring their own laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  In in order to continue working after the course, they should have a few specific software packages installed (listed <a href="#setup">below</a>). 
+  <br>
+  Note for members of Newcastle University: Software should be installed from Software Center on Newcastle University managed Windows PCs and laptops. In case of difficulty please log a ticket to it.servicedesk@ncl.ac.uk and let us know at the contact details below if you still need help.
 </p>
 
 {% comment %}
@@ -212,17 +214,16 @@ ACCESSIBILITY
 Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
-<p id="accessibility">
-  <strong>Accessibility:</strong>
-  We are committed to making this workshop
-  accessible to everybody. 
-{% if online == "false" %}
-  The workshop organizers have checked that:
+
 <p>
-  <ul>
-    <li>The room is wheelchair / scooter accessible.</li>
-    <li>Accessible restrooms are available.</li>
-  </ul>
+<strong>Accessibility:</strong>
+  {% if online == "false" %} We are committed to making this workshop accessible to everybody. For workshops at a physical location, the workshop organizers have checked that:
+
+The room is wheelchair / scooter accessible.
+Accessible restrooms are available.
+Materials will be provided in advance of the workshop and large-print handouts are available if needed by notifying the organizers in advance. If we can help making learning easier for you (e.g. sign-language interpreters, lactation facilities) please get in touch (using contact details below) and we will attempt to provide them.
+
+{% else %} We are dedicated to providing a positive and accessible learning environment for all. Please notify the instructors in advance of the workshop if you require any accommodations or if there is anything we can do to make this workshop more accessible to you.
 {% endif %}
 </p>
 <p>We are dedicated to providing a positive and accessible learning environment for all. 
