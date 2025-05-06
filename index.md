@@ -16,7 +16,7 @@ enddate: 2025-05-06
 instructor: ["Dr Jannetta Steyn", "Dr Robin Nandi"]
 helper: ["Carol Booth and Dr. Richard Howey"]
 email: ["training.researchcomputing@newcastle.ac.uk","jannetta.steyn@newcastle.ac.uk"]
-collaborative_notes: https://hackmd.io/@rseteam/2025-05-06-NCL/edit
+collaborative_notes: https://hackmd.io/@RSETeam/2025-05-06-NCL/edit
 eventbrite:  
 what3words: intro.aims.intent
 ---
